@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Car Factory</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+
+    <div class="page">
+      <h1>Car Factory</h1>
+
+      <form id="car-form" class="cf">
+        <select id="make">
+          <option value="BMW">BMW</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="Ford">Ford</option>
+          <option value="Hyundai">Hyundai</option>
+          <option value="Chevrolet">Chevrolet</option>
+        </select>
+
+        <select id="colour">
+          <option value="Red">Red</option>
+          <option value="Green">Green</option>
+          <option value="Blue">Blue</option>
+        </select>
+
+        <input type="number" id="year" value="1999" required>
+
+        <input type="submit" value="Build it!">
+      </form>
+
+      <h2>Current stock</h2>
+      <ul id="stock">
+
+      </ul>
+    </div>
+
+  </body>
+</html>

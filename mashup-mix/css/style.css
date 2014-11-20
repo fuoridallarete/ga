@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'pacifico';
+    src: url('../fonts/pacifico-webfont.eot');
+    src: url('../fonts/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pacifico-webfont.woff') format('woff'),
+         url('../fonts/pacifico-webfont.ttf') format('truetype'),
+         url('../fonts/pacifico-webfont.svg#pacificoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Globals / helpers */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.hidden {
+     width: 0;
+     height: 0;
+     display: block;
+     overflow: hidden;
+}
+
+/*Image replacement */
+.ir {
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+}
+
+/* Layout */
+
+section,
+footer {
+  padding: 70px 0;
+}
+
+.container {
+     width: 80%;
+     margin: 0 auto;
+}
+
+/*Background*/
+.bg-green {
+     background-color: #91ceb3;
+}
+
+.bg-grey {
+     background-color: #F6F8F8;
+}
+
+/*Typo*/
+body {
+     font-family: "Lato", "Helvetica Neue", sans-serif;
+     font-size: 18px; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", Georgia, "Times New Roman", serif;
+    letter-spacing: 0.1rem;   
+}
+
+.light-typo {
+  color: #FFF;
+}
+
+.dark-typo {
+  color: #4C4C4C;
+}
+
+.lead-section {
+  text-align: center;
+}
+
+.my-logo {
+     color: #91ceb3;
+     font-family: 'pacifico';
+}
+
+.footer-logo {
+     font-size: 50px;
+}
+
+footer {
+     text-align: center;
+}
+
+footer ul {
+     padding: 0;
+     list-style: none;
+}
+
+footer li {
+     display: inline-block;
+}
+
+.sprite {
+     background: url('../images/sprites.png') no-repeat; 
+}
+
+.socials-icon a {
+     display: block;
+     width: 48px;
+     height: 48px;
+}
+
+.facebook {
+     background-position: 0 0;
+}
+
+.facebook:hover {
+     background-position-y: -50px;
+}
+
+.linkedin {
+     background-position: -100px 0;
+}
+
+.linkedin:hover {
+     background-position-y: -50px;
+}
+
+.twitter {
+     background-position: -50px 0;
+}
+
+.twitter:hover {
+     background-position-y: -50px;
+}
+
+
+/*Header*/
+ul.main-menu,
+ul.main-menu ul {
+     margin: 0;
+     padding: 0;
+     background: #fff;
+     color: #91ceb3;
+     list-style: none;
+}
+
+.main-menu {
+     width: 100%;
+     height: 60px;
+     line-height: 60px;
+     border-bottom: 1px solid #5cb68e;
+}
+
+.main-menu a {
+     display: block;
+     height: 100%;
+     color: #91ceb3;
+     text-decoration: none;
+     cursor: pointer;
+}
+
+.main-menu a:hover {
+     background: #91ceb3;
+     color: #fff;
+}
+
+.main-menu > li {
+     display: block;
+     float: left;
+     height: 100%;
+     border-right: 1px solid #5cb68e;
+     text-align: center;
+}
+
+.main-menu > li:last-child {
+     float: right;
+     border-right: none;
+     border-left: 1px solid #5cb68e;
+}
+
+.main-menu > li > a {
+     padding: 0 30px;
+     letter-spacing: 1px;
+     font-weight: bold;
+}
+
+.main-menu > li.header-logo > a {
+     font-size: 20px;
+}
+
+.main-menu > li > a.menu-toggle {
+     padding: 20px;
+}
+
+.main-menu > li > a.menu-toggle:hover .icon-bar {
+     background-color: #fff;
+}
+
+.main-menu li.menu-trigger {
+     width: 60px
+}
+
+.menu-toggle .icon-bar {
+     display: block;
+     width: 22px;
+     height: 2px;
+     background-color: #91ceb3;
+     border-radius: 1px;
+}
+
+.menu-toggle .icon-bar+.icon-bar {
+  margin-top: 4px;
+}
+
+.side-menu-wrapper {
+     top: 60px;
+     overflow: hidden;
+     width: 60px;
+     background: #fff;
+     -webkit-transform: translateX(-60px);
+     transform: translateX(-60px)
+}
+
+.menu-scroller {
+     width: 370px;
+     overflow-y: scroll; 
+}
+
+.side-menu-items {
+     border-right: 1px solid #5cb68e;
+     text-align: left;
+}
+
+.side-menu-items li a {
+     border-bottom: 1px solid #5cb68e;
+     border-right: 1px solid #5cb68e;
+}
+
+.side-menu-items li a i {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    line-height: 1;
+}
+
+.menu-open-all,
+.side-menu-wrapper.menu-open-part {
+     -webkit-transform:translateX(0px);
+     transform: translateX(0px);
+     border-right: 1px solid #5cb68e;
+     z-index: 999;
+     position: absolute;
+}
+
+.menu-open-all {
+     width: 340px
+}
+

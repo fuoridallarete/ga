@@ -1,0 +1,44 @@
+!!! 5
+%html
+  %head
+    %title Cola
+    %link{rel: 'stylesheet', href: 'css/main.css'}
+    %script{src: 'js/jquery-2.1.1.min.js'}
+    %script{src: 'js/main.js'}
+  %body
+    %div{class: 'container'}
+      %header
+        %h1 Cola
+        %nav
+          %ul
+            %li
+              %a{href: '#'} Home
+            %li
+              %a{href: '#'} About
+            %li
+              %a{href: '#'} Stuff
+            %li
+              %a{href: '#'} Contact
+      %main
+        %h2 Diet Coke!
+        / This is a comment
+
+        %p
+          %a{href: '#', class: 'primary-cta'} Coke!
+          %a{href: '#', class: 'secondary-cta'} Diet Coke!
+
+        %div
+          :markdown
+            ### Diet Coke is great because
+
+            - Zero calories!
+            - It's in the fridge
+            - It's silver and silver is cool
+
+            | Coke    | Calories |
+            |---------|----------|
+            | Diet    | 0        |
+            | Regular | 42       |
+
+      %footer
+        %p &copy; 2013 Cola

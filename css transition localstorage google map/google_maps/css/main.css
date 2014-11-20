@@ -1,0 +1,9 @@
+body {
+  font: 100%/1.4 Helvetica, Arial, sans-serif;
+  padding: 5em;
+}
+
+#map-canvas {
+  width: 600px;
+  height: 600px;
+}

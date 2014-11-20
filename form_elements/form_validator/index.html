@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+	<title>The Divided Times</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="page">
+    <h1>Sign up form</h1>
+    
+    <form action="http://google.com" method="get">
+      <ul id="errors">
+
+      </ul>
+
+      <label for="first_name">First name *</label>
+      <input type="text" name="first_name" id="first_name">
+
+      <label for="last_name">Last name *</label>
+      <input type="text" name="last_name" id="last_name">
+
+      <label for="address">Address</label>
+      <textarea name="address" id="address"></textarea>
+
+      <label for="over_18">Over 18</label>
+      <input type="radio" name="age" value="true" id="over_18">
+
+      <label for="under_18">Under 18</label>
+      <input type="radio" name="age" value="false" id="under_18" checked>
+
+      <input type="submit" value="Submit">
+    </form>
+
+  </div>
+</body>
+</html>

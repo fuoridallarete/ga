@@ -1,0 +1,49 @@
+body {
+  font: 100%/1.4 Georgia, serif;
+}
+
+.page {
+  max-width: 30em;
+  margin: 3em auto;
+}
+
+h1 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 3em;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  font-family: Georgia, serif;
+  border-radius: 2px;
+}
+
+input[type="text"] {
+  padding: 0.5em;
+  border: 1px solid #999;
+}
+
+input[type="text"]:hover,
+input[type="text"]:focus {
+  outline: none;
+  border-color: #666;
+  background: #eee;
+}
+
+input[type="submit"] {
+  border: 0;
+  border-bottom: 3px solid #c20027;
+  background: #ff0033;
+  color: #fff;
+  padding: 0.75em 0.5em;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: #ff0066;
+}

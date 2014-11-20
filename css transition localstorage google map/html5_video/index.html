@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+
+		<title>HTML5 video (or: look, no Flash!)</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="container">
+			<h1>HTML video example</h1>
+			<h2>Implement a multimedia player in HTML that you can use to embed native videos (no Flash!)</h2>
+
+			<div id="video_container">
+				<video poster="images/tron_legacy.jpg" id="tron">
+				  <source src="video/tron.m4v" type="video/mp4">
+				  <source src="video/tron.webm" type="video/webm">
+				</video>
+			</div>
+
+			<div id="button_group">
+				<button id="video_button">Play video</button>
+				<button id="video_volume_up">Vol +</button>
+				<button id="video_volume_down">Vol -</button>
+			</div>
+
+		</div><!-- #container -->
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

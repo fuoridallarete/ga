@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Sign Up form</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="page">
+      <h1>Sign Up</h1>
+      <form action="#" method="post">
+        <fieldset>
+          <label for="username">Username</label>
+          <input type="text" name="username">
+        </fieldset>
+        <fieldset>
+          <label for="password">Password</label>
+          <input type="password" name="password">
+        </fieldset>
+        <fieldset>
+          <label for="age">Excitedness</label>
+          <input type="range" name="age" min="1" max="10" step="1">
+        </fieldset>
+        <fieldset>
+          <label>Date of birth</label>
+          <input type="date" name="dob">
+        </fieldset>
+        <fieldset>
+          <label>Favourite pizza topping</label>
+          <label>
+            <input type="radio" name="pizza" value="pepperoni">
+            Pepperoni
+          </label>
+          <label>
+            <input type="radio" name="pizza" value="pineapple">
+            Pineapple
+          </label>
+          <label>
+            <input type="radio" name="pizza" value="ham">
+            Ham
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>Favourite beverages</label>
+          <label>
+            <input type="checkbox" name="beverages[]" value="beer">
+            Beer
+          </label>
+          <label>
+            <input type="checkbox" name="beverages[]" value="wine">
+            Wine
+          </label>
+          <label>
+            <input type="checkbox" name="beverages[]" value="cola">
+            Cola
+          </label>
+        </fieldset>
+
+        <input type="submit" name="some_name" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>

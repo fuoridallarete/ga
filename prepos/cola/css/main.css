@@ -1,0 +1,72 @@
+/*************
+ * VARIABLES *
+ *************/
+/*************
+ * MIXINS    *
+ *************/
+/*************
+ * BODY      *
+ *************/
+body {
+  background: #FF4136;
+  font: 100%/1.4 Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 60em;
+  margin: 2em auto;
+}
+
+/*************
+ * HEADER    *
+ *************/
+header {
+  background: #cf0b00;
+}
+header h1 {
+  text-align: center;
+}
+header ul {
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid #333;
+}
+header ul:before, header ul:after {
+  content: " ";
+  display: table;
+}
+header ul:after {
+  clear: both;
+}
+header li {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+header a {
+  display: block;
+  padding: 10px 0;
+  color: #fff;
+}
+header a:hover {
+  background: #9c0900;
+}
+
+/*************
+ * BUTTONS   *
+ *************/
+.primary-cta {
+  border-radius: 4px;
+  padding: 10px 15px;
+  background: black;
+  color: white;
+  display: inline-block;
+}
+
+.secondary-cta {
+  border-radius: 4px;
+  padding: 10px 15px;
+  background: #999999;
+  color: white;
+  display: inline-block;
+}

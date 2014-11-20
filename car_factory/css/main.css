@@ -1,0 +1,60 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #D7DADB;
+  color: #FFF;
+  font: 100%/1.4 sans-serif;
+}
+
+.page {
+  max-width: 40em;
+  margin: 2em auto;
+  background: #2C3E50;
+  padding: 2em;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 1em 0;
+}
+
+form {
+  background: #6DBCDB;
+  padding: 1em;
+}
+
+select,
+input {
+  display: inline-block;
+  width: 24%;
+  float: left;
+  margin-right: 1%;
+}
+
+input {
+  border: 0;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+input[type='submit'] {
+  background: #FC4349;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}

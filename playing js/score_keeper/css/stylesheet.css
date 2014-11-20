@@ -1,0 +1,45 @@
+html {
+  background: #EF4339;
+}
+
+body {
+  margin: 3em;
+  font-family: Georgia, serif;
+  width: 40em;
+  margin: 2em auto;
+  border: 0.5em solid #530031;
+  padding: 2em;
+  text-align: center;
+  background: #fff;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+button {
+  background: #820233;
+  color: #fff;
+  border: 0;
+  font-weight: bold;
+  padding: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #222;
+}
+
+li:nth-child(even) button {
+  background: #CA293E;
+}
+
+li:nth-child(even) button:hover {
+  background: #444;
+}

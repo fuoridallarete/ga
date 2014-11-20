@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.3;
+	color: #555;
+}
+
+#container {
+	margin: 0 5px;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.span-one-third {
+	display: inline;
+	float: left;
+	margin: 4px;
+}
+
+h1 {
+	font-size: 300%;
+	margin: 20px 0;
+	background: #CCC;
+}
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+/**
+	min-width
+	max-width
+	min-device-width
+	max-device-width
+	min-height
+	max-height
+	min-device-height
+	max-device-height
+*/
+
+
+@media only screen
+and (min-width: 1024px) {
+	.span-one-third {
+		width: 30%;
+	}
+}
+
+@media only screen
+and (max-device-width: 500px) {
+	.span-one-third h2 {
+		text-align: center;
+	}
+}
+

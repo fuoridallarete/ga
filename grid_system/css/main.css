@@ -1,0 +1,25 @@
+.header {
+  background: #000;
+  color: #fff;
+  padding: 1em;
+}
+
+.content {
+  background: #FF0;
+  padding: 1em;
+}
+
+.sidebar {
+  background: #994;
+  padding: 1em;
+}
+
+.footer {
+  background: #4F6;
+  padding: 1em;
+}
+
+.image-block {
+  min-height: 10em;
+  background: #4BD;
+}

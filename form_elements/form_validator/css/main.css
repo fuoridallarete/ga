@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+body {
+  font: 100%/1.4 "Helvetica Neue", Helvetica, sans-serif;
+  background: #E80C7A;
+}
+
+#errors {
+  background: red;
+  color: white;
+}
+
+#errors li {
+  padding: 0.25em;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+.page {
+  padding: 1.5em;
+  max-width: 20em;
+  margin: 2em auto;
+  background: #fff;
+  border-radius: 0.2em;
+}
+
+input,
+textarea {
+  display: block;
+  font-size: 1.5em;
+  width: 100%;
+  padding: 0.25em;
+  border: 1px solid #ccc;
+  margin-bottom: 1em;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  width: auto;
+}
+
+input[type="submit"] {
+  background: #FF0DFF;
+  border: 0;
+  color: #fff;
+  font-size: 1em;
+  padding: 1em;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
